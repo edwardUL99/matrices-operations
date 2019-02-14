@@ -20,6 +20,7 @@ public class Matrices {
 	}
 	
 	public boolean contains(int[] a, int x, int N) {
+		//Will search the first N elements
 		if (N <= a.length) {
 			for (int i = 0; i < N; i++) {
 				if (a[i] == x) {
