@@ -1,12 +1,16 @@
 -------------------------------------------------------------------------
-Spreadsheet Tabs Management Class Programming Assignment SEM1 YEAR1 LM121
+	2D Arrays and Matrices Operations
 -------------------------------------------------------------------------
 
-PROJECT TITLE: Spreadsheet
-PURPOSE OF PROJECT: Programming assignment from Introduction to Programming Module SEM1	
+PROJECT TITLE: 2D Arrays and Matrices Operations
+PURPOSE OF PROJECT: Developed to implement matrices operations learned in mathematics into Java
 VERSION or DATE:13-02-2019
 HOW TO START THIS PROJECT:Run "java Driver" in the terminal
 AUTHORS: Edward Lynch-Milner
+
+NOTE:
+
+I have included a Lua version of SOME of the operations provided by the Matrices java class, just to show same can be done in a different language. Please note, however, you will need to have Lua installed on your system. It is a complicated process with many instructions available on https://medium.com/@CassiusBenard/lua-basics-windows-7-installation-and-running-lua-files-from-the-command-line-e8196e988d71 (Written for Windows 7 but worked on my Windows 10 PC
 USER INSTRUCTIONS:
 
 On a Windows PC, double click the Run.bat file but make sure you run it inside the directory
