@@ -258,10 +258,11 @@ public class Matrices {
 		String[] shuffled = Arrays.copyOf(a,  a.length);
 		Arrays.sort(shuffled);
 		for (int i = 0; i < shuffled.length; i++) {
-			String temp = shuffled[i];
 			int pos = (int)(Math.random() * shuffled.length);
-			shuffled[i] = shuffled[pos];
-			shuffled[pos] = temp;
+			int pos1 = (int)(Math.random() * shuffled.length);
+			String temp = shuffled[pos];
+			shuffled[pos] = shuffled[pos1];
+			shuffled[pos1] = temp;
 		}
 		return shuffled;
 	}
@@ -272,10 +273,8 @@ public class Matrices {
 		int right = reversed.length - 1;
 		while (left < right) {
 			int temp = reversed[left];
-			reversed[left] = reversed[right];
-			reversed[right] = temp;
-			left++;
-			right--;
+			reversed[left++] = reversed[right];
+			reversed[right--] = temp;
 		}
 		return reversed;
 	}
@@ -286,10 +285,8 @@ public class Matrices {
 		int right  = reversed.length - 1;
 		while (left < right) {
 			String temp = reversed[left];
-			reversed[left] = reversed[right];
-			reversed[right] = temp;
-			left++;
-			right--;
+			reversed[left++] = reversed[right];
+			reversed[right--] = temp;
 		}
 		return reversed;
 	}
